@@ -1,0 +1,52 @@
+[
+  {
+    "company": "Codebase",
+    "role": "Senior Full Stack Engineer",
+    "duration": "2023 — Present",
+    "location": "Remote",
+    "responsibilities": [
+      "Lead full stack development for client products spanning mobile, web, and backend",
+      "Architect scalable systems and mentor junior engineers on the team",
+      "Own technical relationships with international startup clients"
+    ],
+    "achievements": [
+      "Delivered 15+ client projects across fintech, healthcare, and e-commerce",
+      "Reduced average API response time by 40% through query and caching optimizations",
+      "Introduced CI/CD pipelines that cut deployment time from hours to minutes"
+    ],
+    "technologies": ["Flutter", "Node.js", "Laravel", "React", "Next.js", "AWS", "Docker"]
+  },
+  {
+    "company": "Freelance",
+    "role": "Full Stack & Mobile Developer",
+    "duration": "2020 — 2023",
+    "location": "Remote",
+    "responsibilities": [
+      "Partnered directly with startup founders to scope, build, and launch MVPs",
+      "Built cross-platform mobile apps and backend APIs for early-stage products",
+      "Provided ongoing support and iteration post-launch"
+    ],
+    "achievements": [
+      "Shipped 25+ MVPs for startups across Asia, Europe, and North America",
+      "Built a payments integration reused across 5 separate client projects",
+      "Maintained a 100% on-time delivery record across freelance engagements"
+    ],
+    "technologies": ["Flutter", "Firebase", "Node.js", "MongoDB", "REST APIs"]
+  },
+  {
+    "company": "Early Career",
+    "role": "Software Engineer",
+    "duration": "2019 — 2020",
+    "location": "Multan, Pakistan",
+    "responsibilities": [
+      "Developed and maintained Android and web applications",
+      "Collaborated with design and QA to ship polished, tested releases",
+      "Participated in code reviews and adopted modern engineering practices"
+    ],
+    "achievements": [
+      "Contributed to the launch of two consumer-facing Android apps",
+      "Improved crash-free session rate from 92% to 99%"
+    ],
+    "technologies": ["Java", "Android", "PHP", "MySQL"]
+  }
+]

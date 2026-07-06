@@ -1,0 +1,26 @@
+[
+  {
+    "question": "How long does a project take?",
+    "answer": "It depends on scope, but most MVPs take 4-8 weeks and larger production builds take 2-4 months. After an initial discovery call, I'll give you a concrete timeline before any work starts."
+  },
+  {
+    "question": "What technologies do you use?",
+    "answer": "Flutter for mobile, React and Next.js for web, Node.js and Laravel for backend, and PostgreSQL, MySQL, MongoDB, or Firebase for data — plus AWS or DigitalOcean for infrastructure. I choose the stack based on your product's needs, not the other way around."
+  },
+  {
+    "question": "Can you join an existing project?",
+    "answer": "Yes. I regularly join projects mid-flight — I start with a short codebase and architecture review so I can contribute confidently without slowing the team down."
+  },
+  {
+    "question": "Do you build MVPs?",
+    "answer": "Yes, MVP development is one of my core services. I focus on the smallest scope that proves your core hypothesis, built on an architecture that won't need a rewrite once you get traction."
+  },
+  {
+    "question": "Do you provide long-term support?",
+    "answer": "Yes. Many clients continue with a monthly retainer for maintenance, new features, and on-call support after the initial build ships."
+  },
+  {
+    "question": "How much do projects usually cost?",
+    "answer": "Project cost depends on scope and complexity. Small MVPs typically start in the low five figures (USD); larger builds are scoped and quoted after a discovery call so you know the investment upfront."
+  }
+]

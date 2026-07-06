@@ -1,0 +1,8 @@
+[
+  { "step": "Discovery", "description": "Understand your goals, users, and constraints through a focused kickoff call." },
+  { "step": "Planning", "description": "Scope the roadmap, architecture, and timeline into clear, deliverable milestones." },
+  { "step": "Design", "description": "Wireframe and prototype key flows so we agree on the product before writing code." },
+  { "step": "Development", "description": "Build in focused sprints with regular demos so you always see visible progress." },
+  { "step": "Testing", "description": "QA across devices and edge cases, with automated tests for critical paths." },
+  { "step": "Deployment", "description": "Ship to production with monitoring in place, plus a handoff or support plan." }
+]

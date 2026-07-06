@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "mobile-development",
+    "title": "Mobile Development",
+    "icon": "Smartphone",
+    "description": "Cross-platform mobile apps that feel native, built once and shipped everywhere.",
+    "items": ["Flutter", "Android", "iOS", "Firebase"]
+  },
+  {
+    "slug": "backend-development",
+    "title": "Backend Development",
+    "icon": "Server",
+    "description": "Reliable APIs and services designed to scale with your product.",
+    "items": ["REST APIs", "Authentication", "Payment Integration", "Databases", "Cloud Deployment"]
+  },
+  {
+    "slug": "ai-integration",
+    "title": "AI Integration",
+    "icon": "Sparkles",
+    "description": "Practical AI features that make your product feel genuinely smart.",
+    "items": ["OpenAI", "Chatbots", "Voice AI", "OCR", "Automation"]
+  },
+  {
+    "slug": "mvp-development",
+    "title": "MVP Development",
+    "icon": "Rocket",
+    "description": "From idea to launch — rapid, scalable builds for early-stage startups.",
+    "items": ["Startup Consulting", "Rapid Development", "Scalable Architecture", "Deployment"]
+  }
+]

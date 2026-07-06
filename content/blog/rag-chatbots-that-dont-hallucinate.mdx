@@ -1,0 +1,28 @@
+---
+title: "Building RAG Chatbots That Don't Hallucinate on Your Docs"
+date: "2026-04-03"
+excerpt: "The practical checklist I use when wiring an LLM chatbot up to a company's real documentation."
+category: "AI"
+tags: ["AI", "OpenAI", "RAG"]
+readTime: "7 min read"
+---
+
+Retrieval-augmented generation sounds simple: embed your docs, retrieve relevant chunks, hand them to the model. In practice, most of the hallucination problems people blame on the model are actually retrieval problems.
+
+## Chunk by meaning, not by character count
+
+Splitting documents into fixed-size chunks is the fastest way to get a working prototype, and the fastest way to break your retrieval quality. A 500-character chunk that cuts a table in half, or separates a heading from its content, gives the model incomplete context — and an incomplete-context model fills gaps with guesses. Chunk along semantic boundaries: sections, headings, list items.
+
+## Always show your sources
+
+If a chatbot can't point to the paragraph it pulled an answer from, you can't tell whether it's grounded or improvising. Returning source citations alongside every answer isn't just good UX — it's the single easiest way to catch retrieval failures before your users do.
+
+## Give the model permission to say "I don't know"
+
+A surprising amount of hallucination comes from the system prompt implicitly telling the model it must answer. Explicitly instructing the model to say it doesn't have enough information, and routing that case to a human handoff, removes most of the pressure to fabricate.
+
+## Re-embed on every content change
+
+Stale embeddings are an invisible failure mode — the retrieval still "works," it just returns confidently wrong context. Wire re-embedding into your content pipeline so docs and vectors never drift apart.
+
+Get retrieval right, and the model's job becomes almost boring: summarize the correct context faithfully. That's a problem modern LLMs are very good at solving.

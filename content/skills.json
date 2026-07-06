@@ -1,0 +1,9 @@
+[
+  { "category": "Frontend", "icon": "Layout", "skills": ["React", "Next.js", "TypeScript", "Tailwind CSS"] },
+  { "category": "Mobile", "icon": "Smartphone", "skills": ["Flutter", "Dart"] },
+  { "category": "Backend", "icon": "Server", "skills": ["Node.js", "Laravel", "Express", "NestJS"] },
+  { "category": "Database", "icon": "Database", "skills": ["PostgreSQL", "MySQL", "MongoDB", "Firebase"] },
+  { "category": "Cloud", "icon": "Cloud", "skills": ["AWS", "DigitalOcean", "Cloudflare"] },
+  { "category": "DevOps", "icon": "Container", "skills": ["Docker", "GitHub Actions", "Nginx", "Linux"] },
+  { "category": "AI", "icon": "Sparkles", "skills": ["OpenAI", "LangChain", "RAG", "Vector Databases"] }
+]

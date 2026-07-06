@@ -1,0 +1,571 @@
+```
+# Personal Developer Portfolio Website PRD
+
+## Project Overview
+
+Build a premium, modern, responsive portfolio website for a Software Engineer and Freelancer.
+
+The website should look like it belongs to a senior developer who works with startups and international clients. It should focus on converting visitors into clients rather than simply showcasing projects.
+
+Design Inspiration:
+- Apple
+- Vercel
+- Stripe
+- Linear
+- Framer
+- Raycast
+
+Style:
+- Clean
+- Minimal
+- Premium
+- Fast
+- Modern
+- Professional
+
+The website should feel elegant with smooth animations, large typography, lots of whitespace, glassmorphism where appropriate, and subtle gradients.
+
+---
+
+# Tech Stack
+
+- Next.js 15
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
+- MDX for blog
+- Dark/Light Mode
+- SEO Optimized
+- Fully Responsive
+- Static Site Generation
+
+---
+
+# Color Palette
+
+Light Mode
+- White Background
+- Light Gray Sections
+- Blue Accent (#2563EB)
+
+Dark Mode
+- #09090B Background
+- Gray Cards
+- Blue Accent (#3B82F6)
+
+Use rounded-xl components, subtle borders, smooth shadows, and soft hover effects.
+
+---
+
+# Website Pages
+
+1. Home
+2. Projects
+3. Services
+4. Experience
+5. Blog
+6. About
+7. Contact
+8. Resume
+
+---
+
+# Navigation
+
+Sticky navigation bar
+
+Left:
+- Logo
+
+Center:
+- Home
+- Projects
+- Services
+- Experience
+- Blog
+- About
+- Contact
+
+Right:
+- GitHub
+- LinkedIn
+- Resume Button
+- Theme Toggle
+
+Navbar should become slightly blurred while scrolling.
+
+---
+
+# Hero Section
+
+Large headline
+
+Example:
+
+Building scalable mobile apps, backend systems & AI-powered products.
+
+Subtitle:
+
+Full Stack Software Engineer specializing in Flutter, Node.js, Laravel, React, Next.js, AI integrations, and cloud infrastructure.
+
+Buttons:
+- Hire Me
+- View Projects
+
+Right side:
+Developer illustration or animated abstract graphic.
+
+Background:
+- Animated gradient
+- Grid pattern
+- Floating blur circles
+- Small animated particles
+
+---
+
+# Trust & Statistics
+
+Display animated counters
+
+- 5+ Years Experience
+- 40+ Projects Delivered
+- Global Clients
+- Full Stack Developer
+- Startup Experience
+
+Technology Logos
+
+Flutter
+React
+Next.js
+Node.js
+Laravel
+Docker
+AWS
+Firebase
+PostgreSQL
+MongoDB
+OpenAI
+
+---
+
+# About Section
+
+Two-column layout
+
+Left:
+Professional image
+
+Right:
+Introduction
+
+Explain:
+- Who I am
+- What I build
+- Industries worked with
+- Passion for solving complex problems
+
+Include:
+- Download Resume button
+- Availability status
+- Location
+- Languages
+
+---
+
+# Services Section
+
+Four premium cards
+
+1. Mobile Development
+- Flutter
+- Android
+- iOS
+- Firebase
+
+2. Backend Development
+- REST APIs
+- Authentication
+- Payment Integration
+- Databases
+- Cloud Deployment
+
+3. AI Integration
+- OpenAI
+- Chatbots
+- Voice AI
+- OCR
+- Automation
+
+4. MVP Development
+- Startup Consulting
+- Rapid Development
+- Scalable Architecture
+- Deployment
+
+Cards should animate on hover.
+
+---
+
+# Featured Projects
+
+Large responsive grid.
+
+Each project contains
+
+- Screenshot
+- Title
+- Description
+- Technologies
+- Features
+- Live Demo
+- GitHub
+- Case Study
+
+Suggested demo projects
+
+- Food Delivery Platform
+- Healthcare App
+- AI Chat Assistant
+- Inventory Management
+- CRM System
+- FinTech Dashboard
+- E-Commerce Platform
+- Booking System
+
+Hover animations:
+- Lift
+- Shadow
+- Image zoom
+
+---
+
+# Experience Timeline
+
+Vertical timeline.
+
+Each item contains
+
+Company
+
+Role
+
+Duration
+
+Responsibilities
+
+Achievements
+
+Technologies used
+
+---
+
+# Skills Section
+
+Organized by category.
+
+Frontend
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+
+Mobile
+- Flutter
+- Dart
+
+Backend
+- Node.js
+- Laravel
+- Express
+- NestJS
+
+Database
+- PostgreSQL
+- MySQL
+- MongoDB
+- Firebase
+
+Cloud
+- AWS
+- DigitalOcean
+- Cloudflare
+
+DevOps
+- Docker
+- GitHub Actions
+- Nginx
+- Linux
+
+AI
+- OpenAI
+- LangChain
+- RAG
+- Vector Databases
+
+Display skills using beautiful animated cards.
+
+---
+
+# Development Process
+
+Six steps
+
+1. Discovery
+
+2. Planning
+
+3. Design
+
+4. Development
+
+5. Testing
+
+6. Deployment
+
+Use a connected timeline with animations.
+
+---
+
+# Testimonials
+
+Carousel
+
+Each testimonial contains
+
+- Client photo
+- Name
+- Company
+- Rating
+- Review
+
+Auto-slide every few seconds.
+
+---
+
+# Blog Section
+
+Latest 3 articles.
+
+Each card contains
+
+- Featured image
+- Title
+- Date
+- Read time
+- Category
+- Read More button
+
+---
+
+# FAQ
+
+Accordion layout.
+
+Questions:
+
+How long does a project take?
+
+What technologies do you use?
+
+Can you join an existing project?
+
+Do you build MVPs?
+
+Do you provide long-term support?
+
+How much do projects usually cost?
+
+---
+
+# Contact Section
+
+Large call-to-action.
+
+Headline:
+
+Let's Build Something Amazing Together.
+
+Buttons
+
+- Book a Call
+- Send Email
+
+Contact Form
+
+Fields
+
+- Name
+- Email
+- Company
+- Budget
+- Project Details
+
+Social Links
+
+GitHub
+
+LinkedIn
+
+Twitter
+
+WhatsApp
+
+Email
+
+---
+
+# Footer
+
+Logo
+
+Short description
+
+Navigation Links
+
+Services
+
+Social Media
+
+Newsletter Signup
+
+Copyright
+
+---
+
+# Resume Page
+
+Professional resume.
+
+Sections
+
+Summary
+
+Experience
+
+Projects
+
+Education
+
+Skills
+
+Certificates
+
+Download PDF Button
+
+---
+
+# Blog Page
+
+Features
+
+- Categories
+- Search
+- Tags
+- Markdown support
+- Syntax highlighting
+- Related posts
+
+---
+
+# Projects Page
+
+Filter by
+
+- Mobile
+- Backend
+- AI
+- Web
+- Open Source
+
+Each project has its own detail page.
+
+---
+
+# Animations
+
+Use Framer Motion.
+
+Include
+
+- Fade In
+- Slide Up
+- Scale On Hover
+- Smooth Page Transitions
+- Animated Counters
+- Scroll Reveal
+- Gradient Animations
+- Floating Elements
+- Loading Animation
+- Cursor Glow
+- Text Reveal
+
+Animations should feel premium, smooth, and subtle.
+
+---
+
+# Performance
+
+Target Lighthouse score above 95.
+
+Implement
+
+- Lazy Loading
+- Image Optimization
+- Code Splitting
+- Static Generation
+- Route Prefetching
+- Minimal JavaScript
+
+---
+
+# SEO
+
+Implement
+
+- Dynamic Metadata
+- Open Graph
+- Twitter Cards
+- robots.txt
+- sitemap.xml
+- Structured Data (JSON-LD)
+- Canonical URLs
+
+---
+
+# Accessibility
+
+- Semantic HTML
+- Keyboard Navigation
+- ARIA Labels
+- Proper Heading Hierarchy
+- High Contrast
+- Focus States
+
+---
+
+# Content Management
+
+Store all content inside JSON or MDX files.
+
+Content should be easily editable without changing components.
+
+Store separately
+
+- Projects
+- Services
+- Testimonials
+- Blog Posts
+- Experience
+- Skills
+
+---
+
+# Final Goal
+
+Build a world-class developer portfolio that instantly establishes credibility, showcases technical expertise, demonstrates real project experience, and encourages visitors to hire me. The website should feel like a premium SaaS product, with exceptional UI/UX, smooth interactions, fast performance, excellent accessibility, and a strong focus on conversion.
+```
+
+this will be hosted on GitHub pages

@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "food-delivery-platform",
+    "title": "Food Delivery Platform",
+    "category": "mobile",
+    "gradient": "orange-rose",
+    "description": "A two-sided food delivery platform with live order tracking, rider dispatch, and restaurant analytics.",
+    "longDescription": "Built a full delivery marketplace connecting restaurants, riders, and customers. Customers order and track deliveries in real time on a Flutter app, restaurants manage menus and orders from a web dashboard, and a Node.js backend handles order routing, payments, and rider dispatch based on proximity and load.",
+    "technologies": ["Flutter", "Node.js", "PostgreSQL", "Firebase", "Stripe"],
+    "features": [
+      "Real-time order tracking with live map updates",
+      "Automated rider dispatch based on proximity and load",
+      "Restaurant dashboard with menu and order analytics",
+      "Integrated payments with Stripe and cash-on-delivery"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true
+  },
+  {
+    "slug": "healthcare-app",
+    "title": "Healthcare App",
+    "category": "mobile",
+    "gradient": "sky-emerald",
+    "description": "Telehealth app enabling appointment booking, video consultations, and e-prescriptions.",
+    "longDescription": "Designed and built a HIPAA-conscious telehealth platform allowing patients to book appointments, join video consultations, and receive digital prescriptions. Doctors get a scheduling dashboard and patient history view, with encrypted storage for sensitive medical records.",
+    "technologies": ["Flutter", "Laravel", "MySQL", "WebRTC", "AWS"],
+    "features": [
+      "In-app video consultations with WebRTC",
+      "Appointment scheduling with automated reminders",
+      "E-prescriptions with pharmacy handoff",
+      "Encrypted medical record storage"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true
+  },
+  {
+    "slug": "ai-chat-assistant",
+    "title": "AI Chat Assistant",
+    "category": "ai",
+    "gradient": "violet-fuchsia",
+    "description": "A support chatbot with retrieval-augmented answers grounded in a company's own documentation.",
+    "longDescription": "Built a RAG-powered chat assistant that ingests a company's docs, help center, and past support tickets into a vector database, then answers customer questions with cited sources. Includes a human handoff flow and an admin dashboard for reviewing conversation quality.",
+    "technologies": ["Next.js", "OpenAI", "LangChain", "Pinecone", "Node.js"],
+    "features": [
+      "Retrieval-augmented answers grounded in real documentation",
+      "Source citations on every AI response",
+      "Human handoff when the assistant is uncertain",
+      "Admin dashboard for conversation review"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true
+  },
+  {
+    "slug": "inventory-management",
+    "title": "Inventory Management",
+    "category": "web",
+    "gradient": "amber-orange",
+    "description": "Multi-warehouse inventory system with barcode scanning and low-stock alerts.",
+    "longDescription": "Developed an inventory management system for a distributor operating across multiple warehouses. Staff scan barcodes to receive and pick stock, managers get low-stock alerts and demand forecasts, and finance exports reconciled reports each month.",
+    "technologies": ["React", "Node.js", "PostgreSQL", "Docker"],
+    "features": [
+      "Barcode scanning for receiving and picking",
+      "Low-stock alerts and demand forecasting",
+      "Multi-warehouse transfer tracking",
+      "Exportable financial reconciliation reports"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false
+  },
+  {
+    "slug": "crm-system",
+    "title": "CRM System",
+    "category": "web",
+    "gradient": "blue-cyan",
+    "description": "A lightweight CRM for sales teams with pipeline tracking and email automation.",
+    "longDescription": "Built a CRM tailored to a small sales team's workflow — pipeline stages, deal tracking, and automated follow-up emails, replacing a patchwork of spreadsheets. Includes reporting on conversion rates by stage and rep.",
+    "technologies": ["Next.js", "Laravel", "MySQL", "Tailwind CSS"],
+    "features": [
+      "Drag-and-drop deal pipeline",
+      "Automated follow-up email sequences",
+      "Conversion reporting by stage and rep",
+      "Role-based access for managers and reps"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false
+  },
+  {
+    "slug": "fintech-dashboard",
+    "title": "FinTech Dashboard",
+    "category": "web",
+    "gradient": "emerald-teal",
+    "description": "A real-time financial dashboard aggregating multi-currency transactions and spend analytics.",
+    "longDescription": "Built a dashboard for a fintech client to visualize multi-currency transaction volume, merchant settlement status, and spend analytics in real time, backed by a Node.js service that streams and aggregates transaction events.",
+    "technologies": ["React", "Node.js", "MongoDB", "Chart.js", "AWS"],
+    "features": [
+      "Real-time multi-currency transaction feed",
+      "Merchant settlement status tracking",
+      "Custom spend analytics and exportable reports",
+      "Role-based dashboards for finance and support teams"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false
+  },
+  {
+    "slug": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "category": "web",
+    "gradient": "pink-rose",
+    "description": "A headless storefront with custom checkout, promotions engine, and vendor payouts.",
+    "longDescription": "Built a headless e-commerce storefront on Next.js with a Laravel commerce backend, supporting a custom promotions engine, multi-vendor payouts, and an optimized checkout flow that improved conversion over the client's previous platform.",
+    "technologies": ["Next.js", "Laravel", "PostgreSQL", "Stripe"],
+    "features": [
+      "Headless storefront with server-rendered product pages",
+      "Custom promotions and discount engine",
+      "Multi-vendor payout scheduling",
+      "Optimized one-page checkout"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false
+  },
+  {
+    "slug": "booking-system",
+    "title": "Booking System",
+    "category": "web",
+    "gradient": "indigo-blue",
+    "description": "Appointment and resource booking system with calendar sync and automated reminders.",
+    "longDescription": "Developed a booking system for a services business, syncing availability across staff calendars, handling deposits at booking time, and sending automated SMS/email reminders to reduce no-shows.",
+    "technologies": ["React", "Node.js", "PostgreSQL", "Twilio"],
+    "features": [
+      "Two-way calendar sync across staff",
+      "Deposit collection at time of booking",
+      "Automated SMS and email reminders",
+      "No-show and cancellation analytics"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false
+  }
+]

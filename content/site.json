@@ -1,0 +1,49 @@
+{
+  "name": "Shahid Ghafoor",
+  "title": "Full Stack Software Engineer",
+  "tagline": "Building scalable mobile apps, backend systems & AI-powered products.",
+  "subtitle": "Full Stack Software Engineer specializing in Flutter, Node.js, Laravel, React, Next.js, AI integrations, and cloud infrastructure.",
+  "location": "Multan, Pakistan",
+  "languages": ["English", "Urdu"],
+  "availability": "Available for new projects",
+  "industries": ["Fintech", "Healthcare", "E-Commerce", "Logistics", "Startups / MVPs"],
+  "email": "shahidghafoor00@gmail.com",
+  "phone": "+92 300 6860746",
+  "url": "https://shahidghafoor00.github.io",
+  "resumeUrl": "/resume.pdf",
+  "bookCallUrl": "https://cal.com/your-handle",
+  "social": {
+    "github": "https://github.com/shahidghafoor00",
+    "linkedin": "https://www.linkedin.com/in/shahid-ghafoor-3918646a/",
+    "twitter": "https://twitter.com/your-handle",
+    "whatsapp": "https://wa.me/923006860746"
+  },
+  "stats": [
+    { "value": 5, "suffix": "+", "label": "Years Experience" },
+    { "value": 40, "suffix": "+", "label": "Projects Delivered" },
+    { "value": 15, "suffix": "+", "label": "Global Clients" },
+    { "value": 100, "suffix": "%", "label": "Full Stack Coverage" }
+  ],
+  "techLogos": [
+    "Flutter",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Laravel",
+    "Docker",
+    "AWS",
+    "Firebase",
+    "PostgreSQL",
+    "MongoDB",
+    "OpenAI"
+  ],
+  "bio": {
+    "short": "I'm a full stack software engineer who partners with startups and growing companies to design, build, and ship production-grade mobile apps, backend systems, and AI-powered products.",
+    "paragraphs": [
+      "I'm Shahid, a full stack software engineer based in Multan, Pakistan, working with startups and international clients to turn ambitious product ideas into reliable, scalable software.",
+      "I build cross-platform mobile apps with Flutter, robust backend systems with Node.js and Laravel, and modern web experiences with React and Next.js — often wiring them together with AI integrations that make products feel genuinely smart.",
+      "I've worked across fintech, healthcare, e-commerce, and logistics, which means I'm comfortable navigating compliance-heavy requirements as easily as fast-moving MVP sprints.",
+      "What keeps me in this work is the problem-solving — untangling a messy data model, shaving seconds off an API response, or figuring out the simplest architecture that will still hold up in a year. I care about shipping things that last, not just things that demo well."
+    ]
+  }
+}

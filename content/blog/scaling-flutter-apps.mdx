@@ -1,0 +1,28 @@
+---
+title: "Scaling a Flutter App Beyond the MVP"
+date: "2026-05-12"
+excerpt: "Notes on the architectural decisions that keep a Flutter codebase maintainable once it grows past a handful of screens."
+category: "Mobile"
+tags: ["Flutter", "Architecture", "Mobile"]
+readTime: "6 min read"
+---
+
+Most Flutter apps start clean. State is simple, there are three screens, and everything fits in your head at once. The trouble starts around month three, once the app has real users and real feature requests.
+
+## Separate state from widgets early
+
+The single biggest predictor of a painful refactor is business logic living inside `StatefulWidget`. Once a screen's state needs to be shared, tested, or reused, digging it out of a widget tree is expensive. Reach for a dedicated state layer — Riverpod, Bloc, or even a plain `ChangeNotifier` — before you need it, not after.
+
+## Treat your API layer as a contract
+
+Define your API responses as typed models from day one, and isolate all network calls behind a repository interface. This pays off the first time a backend endpoint changes shape, or when you need to swap a REST endpoint for a cached local source during offline development.
+
+## Feature-first folder structure
+
+Organizing by layer (`screens/`, `widgets/`, `models/`) works for small apps and actively hurts larger ones — every change touches four folders. Organizing by feature (`features/checkout/`, `features/profile/`) keeps related code together and makes it obvious what's safe to delete.
+
+## Invest in a design system component library early
+
+Duplicated button and card widgets across screens are one of the fastest ways to make a UI redesign painful. A small internal package of shared components pays for itself the first time your client asks for a global style tweak.
+
+None of this is unique to Flutter — it's the same discipline that keeps any codebase healthy past its first few months. The framework just makes it easy to postpone.

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Placeholder Client Name",
+    "role": "Founder",
+    "company": "Placeholder Startup Inc.",
+    "rating": 5,
+    "review": "Replace with a real client quote. Great testimonials mention the specific problem you solved, how you communicated, and the measurable outcome — e.g. shipped our MVP in 6 weeks and it hasn't needed a rewrite since."
+  },
+  {
+    "name": "Placeholder Client Name",
+    "role": "CTO",
+    "company": "Placeholder Health Co.",
+    "rating": 5,
+    "review": "Replace with a real client quote focused on reliability, communication, or technical depth — whatever mattered most to that client."
+  },
+  {
+    "name": "Placeholder Client Name",
+    "role": "Product Lead",
+    "company": "Placeholder Commerce",
+    "rating": 5,
+    "review": "Replace with a real client quote. Aim for 2-3 sentences, specific rather than generic, ideally with a number or outcome."
+  }
+]
