@@ -58,7 +58,7 @@ export default function RootLayout({
       "@type": "PostalAddress",
       addressLocality: site.location,
     },
-    sameAs: [site.social.github, site.social.linkedin, site.social.twitter],
+    sameAs: [site.social.github, site.social.linkedin],
   };
 
   return (

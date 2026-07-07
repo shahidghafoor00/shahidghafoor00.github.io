@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import { site, services } from "@/lib/content";
-import { GitHubIcon, LinkedInIcon, TwitterIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import { NewsletterForm } from "@/components/layout/newsletter-form";
 
 const NAV_LINKS = [
@@ -32,9 +32,6 @@ export function Footer() {
             </a>
             <a href={site.social.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn profile" className="text-muted hover:text-foreground">
               <LinkedInIcon className="h-5 w-5" />
-            </a>
-            <a href={site.social.twitter} target="_blank" rel="noreferrer" aria-label="Twitter profile" className="text-muted hover:text-foreground">
-              <TwitterIcon className="h-5 w-5" />
             </a>
             <a href={`mailto:${site.email}`} aria-label="Send email" className="text-muted hover:text-foreground">
               <Mail className="h-5 w-5" />

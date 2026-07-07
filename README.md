@@ -60,7 +60,7 @@ Everything editable lives in `content/`, with no component changes required:
 
 This was scaffolded with your real name, location, GitHub profile, and LinkedIn profile, but the following are **placeholders** and should be updated:
 
-- `content/site.json` → `social.twitter`, `social.whatsapp`, `bookCallUrl` (currently placeholder handles/links)
+- `content/site.json` → `bookCallUrl` (currently a placeholder link)
 - `content/testimonials.json` → replace with real client quotes
 - `content/projects.json` → `liveUrl` / `githubUrl` for each project, plus real screenshots if you want them (swap the gradient placeholder in `components/projects/project-card.tsx` for a `next/image`)
 - `public/resume.pdf` → currently a placeholder PDF; replace with your real resume

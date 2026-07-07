@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Calendar, Mail, Phone } from "lucide-react";
 import { site } from "@/lib/content";
-import { GitHubIcon, LinkedInIcon, TwitterIcon, WhatsAppIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, WhatsAppIcon } from "@/components/icons";
 import { PageHeader } from "@/components/ui/page-header";
 import { Card } from "@/components/ui/card";
 import { Reveal } from "@/components/ui/reveal";
@@ -18,7 +18,6 @@ export default function ContactPage() {
     { label: site.phone, Icon: Phone, href: `tel:${site.phone.replace(/\s+/g, "")}` },
     { label: "GitHub", Icon: GitHubIcon, href: site.social.github },
     { label: "LinkedIn", Icon: LinkedInIcon, href: site.social.linkedin },
-    { label: "Twitter", Icon: TwitterIcon, href: site.social.twitter },
     { label: "WhatsApp", Icon: WhatsAppIcon, href: site.social.whatsapp },
   ];
 

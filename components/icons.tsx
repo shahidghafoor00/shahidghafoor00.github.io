@@ -16,14 +16,6 @@ export function LinkedInIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export function TwitterIcon(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden {...props}>
-      <path d="M18.24 2.75h3.03l-6.62 7.56 7.79 10.94h-6.1l-4.78-6.62-5.47 6.62H2.56l7.08-8.57L2.17 2.75h6.26l4.32 6.05 5.49-6.05Zm-1.06 16.6h1.68L7.9 4.53H6.1l11.08 14.82Z" />
-    </svg>
-  );
-}
-
 export function WhatsAppIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden {...props}>

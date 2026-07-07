@@ -21,7 +21,6 @@ export interface SiteContent {
   social: {
     github: string;
     linkedin: string;
-    twitter: string;
     whatsapp: string;
   };
   stats: SiteStat[];
