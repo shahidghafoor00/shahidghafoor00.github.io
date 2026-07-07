@@ -75,7 +75,7 @@ export function Hero() {
             </div>
             <div className="mt-6 space-y-3 font-mono text-xs text-muted">
               <p><span className="text-accent">const</span> engineer = {"{"}</p>
-              <p className="pl-4">stack: [<span className="text-emerald-400">&quot;Flutter&quot;</span>, <span className="text-emerald-400">&quot;Next.js&quot;</span>],</p>
+              <p className="pl-4">stack: [<span className="text-emerald-400">&quot;iOS&quot;</span>, <span className="text-emerald-400">&quot;Android&quot;</span>, <span className="text-emerald-400">&quot;FastAPI&quot;</span>, <span className="text-emerald-400">&quot;AI&quot;</span>],</p>
               <p className="pl-4">focus: <span className="text-emerald-400">&quot;AI-powered products&quot;</span>,</p>
               <p className="pl-4">clients: <span className="text-accent">&quot;global&quot;</span>,</p>
               <p>{"}"}</p>
