@@ -6,7 +6,6 @@ import skillsData from "@/content/skills.json";
 import testimonialsData from "@/content/testimonials.json";
 import faqData from "@/content/faq.json";
 import processData from "@/content/process.json";
-import resumeData from "@/content/resume.json";
 import type {
   SiteContent,
   Service,
@@ -16,7 +15,6 @@ import type {
   Testimonial,
   FaqItem,
   ProcessStep,
-  ResumeData,
 } from "@/types/content";
 
 export const site = siteData as SiteContent;
@@ -27,7 +25,6 @@ export const skills = skillsData as SkillCategory[];
 export const testimonials = testimonialsData as Testimonial[];
 export const faqs = faqData as FaqItem[];
 export const process = processData as ProcessStep[];
-export const resume = resumeData as ResumeData;
 
 export function getFeaturedProjects(): Project[] {
   return projects.filter((project) => project.featured);

@@ -9,7 +9,6 @@ A premium, animated portfolio site built with Next.js 16 (App Router), TypeScrip
 - **Tailwind CSS v4**
 - **Framer Motion** for animations
 - **next-themes** for dark/light mode
-- **next-mdx-remote** for the MDX-powered blog
 - **lucide-react** for icons (brand logos are hand-rolled SVGs in `components/icons.tsx`, since lucide dropped brand marks)
 
 ## Getting Started
@@ -33,9 +32,9 @@ components/
   ui/                Reusable primitives: Button, Card, Reveal, AnimatedCounter, etc.
   layout/             Navbar, Footer, ThemeToggle
   sections/           Home page sections (Hero, Services, Testimonials, FAQ, ...)
-  projects/, blog/, contact/   Feature-specific components
-content/              All editable site content (JSON + MDX)
-lib/                  Typed content getters, MDX/blog parsing, utilities
+  projects/, contact/   Feature-specific components
+content/              All editable site content (JSON)
+lib/                  Typed content getters, utilities
 types/                Shared content TypeScript types
 ```
 
@@ -45,7 +44,7 @@ Everything editable lives in `content/`, with no component changes required:
 
 | File | Controls |
 | --- | --- |
-| `content/site.json` | Name, bio, stats, social links, resume/booking URLs |
+| `content/site.json` | Name, bio, stats, social links, booking URL |
 | `content/services.json` | Services section |
 | `content/projects.json` | Projects grid + case study pages (`gradient` refers to a key in `lib/gradients.ts`, `category` must be one of `mobile \| backend \| ai \| web \| open-source`) |
 | `content/experience.json` | Experience timeline |
@@ -53,8 +52,6 @@ Everything editable lives in `content/`, with no component changes required:
 | `content/testimonials.json` | Testimonials carousel |
 | `content/faq.json` | FAQ accordion |
 | `content/process.json` | "How I Work" steps |
-| `content/resume.json` | Resume page summary/education/certificates |
-| `content/blog/*.mdx` | Blog posts — add a new `.mdx` file with frontmatter (`title`, `date`, `excerpt`, `category`, `tags`) and it's picked up automatically |
 
 ## Things to replace before publishing
 
@@ -63,8 +60,6 @@ This was scaffolded with your real name, location, GitHub profile, and LinkedIn 
 - `content/site.json` → `bookCallUrl` (currently a placeholder link)
 - `content/testimonials.json` → replace with real client quotes
 - `content/projects.json` → `liveUrl` / `githubUrl` for each project, plus real screenshots if you want them (swap the gradient placeholder in `components/projects/project-card.tsx` for a `next/image`)
-- `public/resume.pdf` → currently a placeholder PDF; replace with your real resume
-- `content/resume.json` → education/certificates are placeholders
 
 ## Contact form & newsletter (static site limitations)
 
@@ -84,4 +79,3 @@ This repo includes `.github/workflows/deploy.yml`, which builds and deploys `./o
 ## Notes
 
 - Images use `next/image` with `unoptimized: true` (required for static export) — no project screenshots are used by default (gradient placeholders), so this doesn't matter until you add real photos.
-- Syntax highlighting in blog posts uses `rehype-highlight` with the Atom One Dark theme, applied regardless of site theme (standard practice for code blocks).

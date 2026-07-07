@@ -9,14 +9,12 @@ import { site } from "@/lib/content";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
-import { Button } from "@/components/ui/button";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
   { href: "/services", label: "Services" },
   { href: "/experience", label: "Experience" },
-  { href: "/blog", label: "Blog" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -98,9 +96,6 @@ export function Navbar() {
           >
             <LinkedInIcon className="h-[18px] w-[18px]" />
           </a>
-          <Button href={site.resumeUrl} variant="secondary" size="md">
-            Resume
-          </Button>
           <ThemeToggle />
         </div>
 
@@ -152,9 +147,6 @@ export function Navbar() {
               <a href={site.social.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
                 <LinkedInIcon className="h-5 w-5" />
               </a>
-              <Button href={site.resumeUrl} variant="secondary" size="md" className="ml-auto">
-                Resume
-              </Button>
             </div>
           </motion.div>
         ) : null}

@@ -7,7 +7,6 @@ import { ExperiencePreview } from "@/components/sections/experience-preview";
 import { SkillsSection } from "@/components/sections/skills-section";
 import { ProcessSection } from "@/components/sections/process-section";
 import { TestimonialsSection } from "@/components/sections/testimonials-section";
-import { BlogPreview } from "@/components/sections/blog-preview";
 import { FaqSection } from "@/components/sections/faq-section";
 import { ContactCta } from "@/components/sections/contact-cta";
 
@@ -23,7 +22,6 @@ export default function Home() {
       <SkillsSection />
       <ProcessSection />
       <TestimonialsSection />
-      <BlogPreview />
       <FaqSection />
       <ContactCta />
     </>

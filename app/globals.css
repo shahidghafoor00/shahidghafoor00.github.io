@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@import "highlight.js/styles/atom-one-dark.css";
-@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:where(.dark, .dark *));
 

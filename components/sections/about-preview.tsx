@@ -45,9 +45,6 @@ export function AboutPreview() {
             <Button href="/about" variant="secondary">
               More About Me
             </Button>
-            <Button href={site.resumeUrl} variant="ghost">
-              Download Resume
-            </Button>
           </div>
         </Reveal>
       </div>

@@ -16,7 +16,6 @@ export interface SiteContent {
   email: string;
   phone: string;
   url: string;
-  resumeUrl: string;
   bookCallUrl: string;
   social: {
     github: string;
@@ -89,22 +88,3 @@ export interface ProcessStep {
   description: string;
 }
 
-export interface ResumeData {
-  summary: string;
-  education: { school: string; degree: string; duration: string }[];
-  certificates: string[];
-}
-
-export interface BlogPostMeta {
-  slug: string;
-  title: string;
-  date: string;
-  excerpt: string;
-  category: string;
-  tags: string[];
-  readTime: string;
-}
-
-export interface BlogPost extends BlogPostMeta {
-  content: string;
-}

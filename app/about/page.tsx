@@ -45,10 +45,7 @@ export default function AboutPage() {
               </div>
 
               <div className="flex flex-col gap-3">
-                <Button href={site.resumeUrl} className="w-full">
-                  Download Resume
-                </Button>
-                <Button href="/contact" variant="secondary" className="w-full">
+                <Button href="/contact" className="w-full">
                   Get in Touch
                 </Button>
               </div>
