@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { MapPin, Languages as LanguagesIcon, CheckCircle2, Briefcase } from "lucide-react";
 import { site } from "@/lib/content";
 import { Reveal } from "@/components/ui/reveal";
@@ -21,12 +22,14 @@ export default function AboutPage() {
           <Reveal>
             <div className="sticky top-24 space-y-6">
               <div className="mx-auto aspect-[4/5] w-full max-w-xs overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-surface to-accent/10 lg:mx-0">
-                <div className="flex h-full items-center justify-center text-6xl font-semibold text-accent/40">
-                  {site.name
-                    .split(" ")
-                    .map((part) => part[0])
-                    .join("")}
-                </div>
+                <Image
+                  src="/images/profile.jpg"
+                  alt={site.name}
+                  width={500}
+                  height={625}
+                  className="h-full w-full object-cover"
+                  priority
+                />
               </div>
 
               <div className="space-y-3 text-sm">
